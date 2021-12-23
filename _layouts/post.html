@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+<div class="post-card">{{ page.content }}</div>
+<p class="post-info"><i class="fa fa-clock-o"></i> {{ page.date | date: "%Y-%m-%d" }}　 <i class="fa fa-folder bluk"></i> {{ page.category }}<a class="editme" href="https://github.com/{{ site.owner }}/{{ site.repo }}/blob/master/{{ page.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a></p>
+{% include comments.html %}
