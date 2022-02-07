@@ -2,7 +2,7 @@ title: Khian
 description: Nothing to write.
 author: khianxyz
 permalink: /:title.html/
-url: https://khianxyz.github.io
+url: https://blog.purpose.ml
 paginate: 7
 paginate_path: "/page:num"
 repo: khianxyz.github.io
